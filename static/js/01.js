@@ -1,0 +1,12 @@
+　　$(function(){
+　　$("#sear").val("搜索...").addClass("waiting")
+　　.blur(function(){
+　　if($(this).val()==""){
+　　$("#sear").val("搜索...").addClass("waiting");
+　　}
+　　}).focus(function(){
+　　if($("#sear").val()=="搜索..."){
+　　$("#sear").val("").removeClass("waiting");
+　　}
+　　});
+	});
