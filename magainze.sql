@@ -1,11 +1,11 @@
--- author Jason Hu
+﻿-- author Jason Hu
 -- since: 2014/03/26
 
 -- database: `magainze`
 
 CREATE DATABASE `magainze`;
-
 USE `magainze`;
+
 -- 
 -- table: `admin_users`
 -- 
