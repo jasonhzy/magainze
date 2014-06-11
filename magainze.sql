@@ -4,6 +4,7 @@
 -- database: `magainze`
 
 CREATE DATABASE `magainze`;
+
 USE `magainze`;
 -- 
 -- table: `admin_users`
